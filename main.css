@@ -1,9 +1,9 @@
 body{
     text-align: center;
-    font-family: Open sans, sans-serif;
+    font-family: Open Sans, ssans-serif;
     background: #8A71C9;
     color: #ffffff;
-    margin: 0;
+    margin: 0 0 30px 0;
 }
 
 h1{
@@ -31,8 +31,12 @@ img{
 }
 
 section{
-    max-width: 60%;
+    width: 60%;
     margin: 0 auto;
+}
+
+section section{
+    width: 100%;
 }
 
 ul{
@@ -47,6 +51,13 @@ a{
     font-weight: 700; 
 }
 
+button{
+    background: #41f341;
+    border: solid 1px transparent;
+    padding: 2px 20px;
+    border-radius: 3px;
+}
+
 .green-title{
     color: #04ff9f;
 }
@@ -59,4 +70,26 @@ a{
     color: #ffe36d;
 }
 
+.principal{
+    background: #ff6cb5;
+    height: 40px;
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.principal li{
+    display: inline-block;
+    line-height: 2.5;
+    margin: 0 89px;
+}
+
+.principal a{
+    color: #ffffff;
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+.principal a:hover{
+    color: thistle;
+}
 
